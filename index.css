@@ -1,0 +1,209 @@
+body
+{
+  width: auto;
+  height:auto;
+  border: solid 3px green;
+  background-color: grey;
+}
+
+.header_wrap
+{
+  display: block;
+  width: auto;
+  height: auto;
+  border: solid 3px #000000;
+}
+
+header
+{
+  display: flex;
+  margin: 0 auto;
+  width: 75%;
+  height: 100px;
+}
+
+.title
+{
+  display: flex;
+  position: relative;
+  border: solid 3px red;
+  margin-left: 5%;
+}
+
+.nav_wrap
+{
+  display: block;
+  width: auto;
+  height: auto;
+  border: solid 3px pink;
+}
+
+.nav_list
+{
+  display: flex;
+  position: relative;
+  margin: auto;
+  border: solid 3px blue;
+  width: 75%;
+  justify-content: center;
+}
+
+.nav_list li
+{
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+
+.log_list
+{
+  display: flex;
+  position: relative;
+  border: solid 3px blue;
+  margin: auto;
+  height: 20px;
+}
+
+.log_list li
+{
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.game
+{
+  border: solid 3px #ffffff;
+}
+
+.score_tracker
+{
+  width: 740px;
+  height: auto;
+  margin: 0 auto;
+  border: solid 3px tan;
+  padding-top: 55px;
+  padding-bottom: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.frame
+{
+  display: inline-block;
+  border: solid 2px #000000;
+  margin: 0;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #cc9900;
+}
+
+.frame_count
+{
+  border-bottom: solid 2px #000000;
+}
+
+.ball_1
+{
+  display: inline-block;
+  margin: 0;
+  justify-content: center;
+  width: 25px;
+}
+
+.ball_2
+{
+  display: inline-block;
+  border-left: solid 1px #000000;
+  border-bottom: solid 1px #000000;
+  margin: 0;
+  justify-content: center;
+  width: 25px;
+}
+
+.score
+{
+  display: inline-block;
+  justify-content: center;
+}
+
+.score_input, .game_changers, .stats
+{
+  width: 740px;
+  height: auto;
+  margin: 0 auto;
+  border: solid 3px red;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons li
+{
+  display: inline-block;
+  margin: 0;
+  border-collapse: collapse;
+  text-align: center;
+  text-decoration: none;
+}
+
+.buttons
+{
+  border: solid 3px #ffffff;
+  padding-left: 0px;
+}
+
+.score_button
+{
+  background-color: #ababab;
+  border: none;
+  color: #000000;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.game_button
+{
+  background-color: #ababab;
+  border: none;
+  color: #000000;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.game_stats
+{
+  display: inline-block;
+  margin: 0;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+.category, .percent, .fraction
+{
+  display: inline-block;
+  border: solid 1px #000000;
+  margin: 0;
+  justify-content: center;
+  width: 75px;
+}
+
+#stat_title
+{
+  font-size: 20px;
+}
