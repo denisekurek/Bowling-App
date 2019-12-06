@@ -131,7 +131,7 @@ header
   justify-content: center;
 }
 
-.score_input, .game_changers, .stats
+.balls, .score_input, .game_changers, .stats
 {
   width: 740px;
   height: auto;
@@ -140,6 +140,7 @@ header
   position: relative;
   display: flex;
   justify-content: center;
+  padding: 5px;
 }
 
 .buttons li
