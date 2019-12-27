@@ -17,18 +17,19 @@
           <div class="nav_wrap">
             <nav class="nav_list">
               <ul>
-                <li>Home</li>
-                <li>Score Tracker</li>
-                <li>Arsenal</li>
-                <li>Locations</li>
-                <li>Forum</li>
-                <li>FAQ</li>
-                <li>Partners</li>
-                <li>Friends</li>
+                <li><a href="./player_home.html"></a>My Home</li>
+                <li><a href="./scores.html"></a>Score Tracker</li>
+                <li><a href="./arsenal.html"></a>Arsenal</li>
+                <li><a href="./locate"></a>Location Services</li>
+                <li><a href="./forum"></a>Forum</li>
+                <!--li><a href=""></a>FAQ</li-->
+                <li><a href="./partners"></a>Partners</li>
+                <!--li><a href="./friends"></a>Friends</li-->
               </ul>
               <ul class="log_list">
-                <li>Log In</li> |
-                <li>Sign Up</li>
+                <!--li>Log In</li> |
+                <li>Sign Up</li-->
+                <li>Player Name</li>
               </ul>
             </nav>
           </div>
@@ -159,6 +160,23 @@
               </tr>
             </table>
           </div>
+          <div class="balls">
+            <form class="" action="index.html" method="post">
+              Starting Board: <input type="number" name="starting_board" maxlength="4" min="0" max="100">
+              Arrows: <input type="number" name="arrows" maxlength="4" min="0" max="100">
+              Target: <input type="number" name="target" maxlength="4" min="0" max="100">
+              Break: <input type="number" name="break" maxlength="4" min="0" max="100">
+              Ball:
+              <select class="arsenal" name="ball_choice">
+                <option value="arsenal_ball_1">Code X</option>
+                <option value="arsenal_ball_2">Beyond Ridicilious</option>
+                <option value="arsenal_ball_3">Method</option>
+                <option value="arsenal_ball_4">Conspiracy</option>
+                <option value="arsenal_ball_5">Fight</option>
+                <option value="arsenal_ball_6">Taboo</option>
+              </select>
+            </form>
+          </div>
           <div class="score_input">
             <ul class="buttons">
               <li><a class="score_button" onclick="">0</a></li>
@@ -189,14 +207,31 @@
                 <td class="category">Strikes:</td>
                 <td class="percent">40 %</td>
                 <td class="fraction">4/10</td>
-              </tr>
-              <tr>
-                <td class="category">Spare:</td>
+                <td class="category">Spares:</td>
                 <td class="percent">40 %</td>
                 <td class="fraction">4/10 </td>
               </tr>
               <tr>
-                <td class="category">Open:</td>
+                <td class="category">1 pin /:</td>
+                <td class="percent">20 %</td>
+                <td class="fraction">2/10</td>
+                <td class="category">2 pin /:</td>
+                <td class="percent">20 %</td>
+                <td class="fraction">2/10</td>
+              </tr>
+              <tr>
+                <td class="category">3+ pin /:</td>
+                <td class="percent">20 %</td>
+                <td class="fraction">2/10</td>
+                <td class="category">Opens:</td>
+                <td class="percent">20 %</td>
+                <td class="fraction">2/10</td>
+              </tr>
+              <tr>
+                <td class="category">Splits:</td>
+                <td class="percent">20 %</td>
+                <td class="fraction">2/10</td>
+                <td class="category">Split /:</td>
                 <td class="percent">20 %</td>
                 <td class="fraction">2/10</td>
               </tr>
