@@ -131,12 +131,24 @@ header
   justify-content: center;
 }
 
-.balls, .score_input, .game_changers, .stats
+.position, .score_input, .game_changers, .stats
 {
   width: 740px;
   height: auto;
   margin: 0 auto;
   border: solid 3px red;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.previous_frame
+{
+  width: 740px;
+  height: auto;
+  margin: 0 auto;
+  border: solid 3px blue;
   position: relative;
   display: flex;
   justify-content: center;
@@ -207,14 +219,4 @@ header
 #stat_title
 {
   font-size: 20px;
-}
-
-.adjustment_panel
-{
-  display: inline-block;
-  margin: 0;
-  border-collapse: collapse;
-  text-align: center;
-  padding: 10px;
-  float: right;
 }

@@ -35,114 +35,6 @@
           </div>
         </div>
         <div class="game">
-          <div class="adjustment_panel">
-            <table>
-              <tr>
-                <th id="adj_title">Frame #</th>
-                <th id="adj_title">Standing Board</tr>
-                <th id="adj_title">Target at Arrows</th>
-                <th id="adj_title">Ball at Arrows</th>
-                <th id="adj_title">Target Break Point</th>
-                <th id="adj_title">Ball at Break Point</th>
-              </tr>
-              <tr>
-                <td class="percent">1</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>9</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>10</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>11</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>12</td>
-                <td>27</td>
-                <td>13</td>
-                <td>14</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-            </table>
-          </div>
           <div class="score_tracker">
             <table class="frame">
               <tr>
@@ -268,9 +160,9 @@
               </tr>
             </table>
           </div>
-          <div class="balls">
+          <div class="position">
             <form class="" action="index.html" method="post">
-              Starting Board: <input type="number" name="starting_board" maxlength="4" min="0" max="100">
+              Board: <input type="number" name="starting_board" maxlength="4" min="0" max="100">
               Arrows: <input type="number" name="arrows" maxlength="4" min="0" max="100">
               Target: <input type="number" name="target" maxlength="4" min="0" max="100">
               Break: <input type="number" name="break" maxlength="4" min="0" max="100">
@@ -284,6 +176,18 @@
                 <option value="arsenal_ball_6">Taboo</option>
               </select>
             </form>
+          </div>
+          <div class="previous_frame">
+            <table>
+              <tr>
+                <td>Previous Frame |</td>
+                <td>Board:</td>
+                <td>Arrows:</td>
+                <td>Target:</td>
+                <td>Break:</td>
+                <td>Ball:</td>
+              </tr>
+            </table>
           </div>
           <div class="score_input">
             <ul class="buttons">
