@@ -155,6 +155,24 @@ header
   padding: 5px;
 }
 
+.pv_category
+{
+  display: inline-flex;
+  /*border: solid 1px #000000;*/
+  margin: 0;
+  justify-content: center;
+  width: 50px;
+}
+
+.data
+{
+  display: inline-flex;
+  /*border: solid 1px #000000;*/
+  margin-right: 10px;
+  justify-content: center;
+  width: auto;
+}
+
 .buttons li
 {
   display: inline-block;
