@@ -1,0 +1,29 @@
+body
+{
+  width: auto;
+  height:auto;
+  border: solid 3px green;
+  background-color: grey;
+  display: flex;
+}
+
+.welcome_form
+{
+  width: 500px;
+  height: 500px;
+  margin: auto auto;
+  border: solid 3px red;
+  display: flex;
+}
+
+.heading
+{
+  display: flex;
+  margin: 3px auto 3px auto;
+}
+
+.input
+{
+  display: flex;
+  margin: auto auto;
+}
