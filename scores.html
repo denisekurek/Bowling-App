@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Bowling App</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="score.css">
     <link rel="script" href="score.js">
   </head>
 
@@ -160,9 +160,9 @@
               </tr>
             </table>
           </div>
-          <div class="balls">
+          <div class="position">
             <form class="" action="index.html" method="post">
-              Starting Board: <input type="number" name="starting_board" maxlength="4" min="0" max="100">
+              Board: <input type="number" name="starting_board" maxlength="4" min="0" max="100">
               Arrows: <input type="number" name="arrows" maxlength="4" min="0" max="100">
               Target: <input type="number" name="target" maxlength="4" min="0" max="100">
               Break: <input type="number" name="break" maxlength="4" min="0" max="100">
@@ -177,6 +177,38 @@
               </select>
             </form>
           </div>
+          <div class="previous_frame">
+            <table>
+              <tr>
+                <td class="pv_category">Frame:</td>
+                <td class="data">5</td>
+                <td class="pv_category">Board:</td>
+                <td class="data">25</td>
+                <td class="pv_category">Arrows:</td>
+                <td class="data">13</td>
+                <td class="pv_category">Target:</td>
+                <td class="data">8</td>
+                <td class="pv_category">Break:</td>
+                <td class="data">7</td>
+                <td class="pv_category">Ball:</td>
+                <td class="data">Code X</td>
+              </tr>
+              <tr>
+                <td class="pv_category">Frame:</td>
+                <td class="data">5</td>
+                <td class="pv_category">Board:</td>
+                <td class="data">25</td>
+                <td class="pv_category">Arrows:</td>
+                <td class="data">13</td>
+                <td class="pv_category">Target:</td>
+                <td class="data">8</td>
+                <td class="pv_category">Break:</td>
+                <td class="data">7</td>
+                <td class="pv_category">Ball:</td>
+                <td class="data">Code X</td>
+              </tr>
+            </table>
+          </div>
           <div class="score_input">
             <ul class="buttons">
               <li><a class="score_button" onclick="">0</a></li>
@@ -190,14 +222,6 @@
               <li><a class="score_button" onclick="">8</a></li>
               <li><a class="score_button" onclick="">9</a></li>
               <li><a class="score_button" onclick="">10</a></li>
-            </ul>
-          </div>
-          <div class="game_changers">
-            <ul class="buttons">
-              <li><a class="game_button" onclick="">New Game</a></li>
-              <li><a class="game_button" onclick="">Reset Game</a></li>
-              <li><a class="game_button" onclick="">Erase Frame</a></li>
-              <li><a class="game_button" onclick="">Finish Game</a></li>
             </ul>
           </div>
           <div class="stats">
@@ -236,6 +260,14 @@
                 <td class="fraction">2/10</td>
               </tr>
             </table>
+          </div>
+          <div class="game_changers">
+            <ul class="buttons">
+              <li><a class="game_button" onclick="">New Game</a></li>
+              <li><a class="game_button" onclick="">Reset Game</a></li>
+              <li><a class="game_button" onclick="">Erase Frame</a></li>
+              <li><a class="game_button" onclick="">Finish Game</a></li>
+            </ul>
           </div>
         </div>
       </div>
