@@ -203,7 +203,7 @@ header
   align-items: center;
 }
 
-.pin
+.pin_box
 {
   display: inline-flex;
   width: 50px;
