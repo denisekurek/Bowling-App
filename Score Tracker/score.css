@@ -212,6 +212,14 @@ header
   margin: 0 auto;
 }
 
+.pin
+{
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
 .buttons li
 {
   display: inline-block;
