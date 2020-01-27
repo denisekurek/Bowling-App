@@ -212,12 +212,26 @@ header
   margin: 0 auto;
 }
 
+.pin_spot
+{
+  height: 30px;
+  width: 30px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  transform-origin: center;
+  transform: translate(10px,10px);
+}
+
 .pin
 {
   height: 50px;
   width: 50px;
   background-color: #ffffff;
   border-radius: 50%;
+  margin: auto;
+  z-index: 2;
 }
 
 .buttons li
