@@ -2,28 +2,40 @@ body
 {
   width: auto;
   height:auto;
-  border: solid 3px green;
   background-color: grey;
-  display: flex;
+  display: block;
 }
 
-.welcome_form
+.header
 {
-  width: 500px;
-  height: 500px;
-  margin: auto auto;
-  border: solid 3px red;
-  display: flex;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: solid 1px blue;
 }
 
-.heading
+.header_container
 {
   display: flex;
-  margin: 3px auto 3px auto;
+  align-items: center;
+  padding: 0 16px 0 16px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px red;
 }
 
-.input
+.logo
 {
   display: flex;
-  margin: auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#ball_logo
+{
+  height: 32px;
+  width: 32px;
+  fill:#000000;
+  stroke: #000000;
+  stroke-width: 0px;
 }
