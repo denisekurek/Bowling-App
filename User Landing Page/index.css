@@ -73,3 +73,47 @@ body
 {
   margin: 0 0 0 auto;
 }
+
+.main_container
+{
+  display: flex;
+  max-width: 1280px;
+  padding: 50px 16px 50px 16px;
+  margin: 0 auto;
+  border: solid 1px green;
+  height: 500px;
+}
+
+.quick_description
+{
+  display: flex;
+  max-width: 500px;
+  height: 400px;
+  float: left;
+  border: solid 1px red;
+  align-items: center;
+  margin: auto;
+}
+
+.quick_description span
+{
+  font-size: 50px;
+}
+
+.quick_description p
+{
+  font-size: 24px;
+  word-wrap: normal;
+}
+
+.account_form
+{
+  display: flex;
+  max-width: 500px;
+  height: 400px;
+  float: right;
+  border: solid 1px blue;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+}
