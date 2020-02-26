@@ -52,7 +52,7 @@ body
   width: 100%;
 }
 
-.nav_list, .header_buttons
+.nav_list, .player_nav
 {
   display: flex;
 }
@@ -62,14 +62,14 @@ body
   padding-inline-start: 0;
 }
 
-.nav_titles li, .header_buttons li
+.nav_titles li, .player_nav li
 {
   text-decoration: none;
   display: inline-flex;
   margin-right: 10px;
 }
 
-.header_buttons
+.player_nav
 {
   margin: 0 0 0 auto;
 }
