@@ -32,4 +32,24 @@
   border: solid 1px black;
   margin: 8px auto;
   display: flex;
+  flex-direction: column;
+
+}
+
+.shelf_list
+{
+  max-width: 1280px;
+  height: 110px;
+  border: solid 1px green;
+  margin: 4px auto;
+  display: flex;
+}
+
+.ball_space_shelf
+{
+  width: 100px;
+  height: 95px;
+  border: solid 1px blue;
+  margin: 5px 8px;
+  display: inline-flex;
 }
