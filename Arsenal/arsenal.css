@@ -1,0 +1,35 @@
+.bag_list
+{
+  border: solid 1px black;
+  margin: 8px auto;
+  max-width: 1280px;
+  height: 125px;
+  display: flex;
+}
+
+.bag
+{
+  height: 100px;
+  width: 400px;
+  border: solid 1px red;
+  margin: auto;
+  display: flex;
+}
+
+.ball_space
+{
+  width: 100px;
+  height: 95px;
+  border: solid 1px blue;
+  margin: auto auto;
+  display: inline-flex;
+}
+
+.ball_shelf
+{
+  max-width: 1280px;
+  min-height: 600px;
+  border: solid 1px black;
+  margin: 8px auto;
+  display: flex;
+}

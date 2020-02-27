@@ -133,27 +133,57 @@ label, input, select
   display: flex;
   height: auto;
   border: solid 1px green;
-  margin: 0 auto;
-  margin-top: 15px;
+  margin: auto auto;
 }
 
 .pin_deck
 {
   display: block;
-  width: 300px;
+  max-width: 350px;
   height: auto;
-  border: solid 3px white;
+  border: solid 1px white;
   margin: 0 auto;
   align-items: center;
 }
 
-.back_row, .third_row, .second_row, .head_pin
+.back_row
 {
-  width: auto;
-  height: auto;
-  border: solid 3px tan;
+  width: 325px;
+  height: 60px;
+  border: solid 1px tan;
   display: flex;
-  margin: auto 0px;
+  margin: auto auto;
+  vertical-align: middle;
+}
+
+.third_row
+{
+  width: 250px;
+  height: 60px;
+  border: solid 1px tan;
+  display: flex;
+  margin: auto auto;
+  vertical-align: middle;
+
+}
+
+.second_row
+{
+  width: 175px;
+  height: 60px;
+  border: solid 1px tan;
+  display: flex;
+  margin: auto auto;
+  vertical-align: middle;
+}
+
+.head_pin
+{
+  width: 100px;
+  height: 60px;
+  border: solid 1px tan;
+  display: flex;
+  margin: auto auto;
   vertical-align: middle;
 }
 
@@ -162,7 +192,7 @@ label, input, select
   display: inline-flex;
   width: 50px;
   height: 50px;
-  border: solid 3px black;
+  border: solid 1px black;
   margin: 0 auto;
 }
 
@@ -186,6 +216,16 @@ label, input, select
   border-radius: 50%;
   margin: auto;
   z-index: 2;
+  position: relative;
+}
+
+.pin_num
+{
+  position: relative;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: -25px;
+  width: 50px;
 }
 
 .buttons li
@@ -199,7 +239,7 @@ label, input, select
 
 .buttons
 {
-  border: solid 3px #ffffff;
+  border: solid 1px #ffffff;
   padding-left: 0px;
 }
 

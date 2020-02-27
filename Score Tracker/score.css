@@ -175,32 +175,62 @@ header
 
 .pin_input
 {
-  width: 740px;
+  max-width: 1280px;
   display: flex;
   height: auto;
-  border: solid 3px green;
-  margin: 0 auto;
+  border: solid 1px green;
+  margin: auto auto;
 }
 
 .pin_deck
 {
   display: block;
-  width: auto;
+  max-width: 350px;
   height: auto;
-  border: solid 3px white;
+  border: solid 1px white;
   margin: 0 auto;
   align-items: center;
 }
 
-.back_row, .third_row, .second_row, .head_pin
+.back_row
 {
-  width: auto;
-  height: auto;
-  border: solid 3px tan;
+  width: 325px;
+  height: 60px;
+  border: solid 1px tan;
   display: flex;
-  margin: auto 0px;
+  margin: auto auto;
   vertical-align: middle;
-  align-items: center;
+}
+
+.third_row
+{
+  width: 250px;
+  height: 60px;
+  border: solid 1px tan;
+  display: flex;
+  margin: auto auto;
+  vertical-align: middle;
+
+}
+
+.second_row
+{
+  width: 175px;
+  height: 60px;
+  border: solid 1px tan;
+  display: flex;
+  margin: auto auto;
+  vertical-align: middle;
+}
+
+.head_pin
+{
+  width: 100px;
+  height: 60px;
+  border: solid 1px tan;
+  display: flex;
+  margin: auto auto;
+  vertical-align: middle;
 }
 
 .pin_box
@@ -208,7 +238,7 @@ header
   display: inline-flex;
   width: 50px;
   height: 50px;
-  border: solid 3px black;
+  border: solid 1px black;
   margin: 0 auto;
 }
 
@@ -232,6 +262,7 @@ header
   border-radius: 50%;
   margin: auto;
   z-index: 2;
+  position: relative;
 }
 
 .buttons li
