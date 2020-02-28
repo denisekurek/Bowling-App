@@ -11,7 +11,7 @@ body
 {
   padding-top: 8px;
   padding-bottom: 8px;
-  border: solid 1px blue;
+  /*border: solid 1px blue;*/
   background-color: darkgrey;
 }
 
@@ -22,7 +22,7 @@ body
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   font-size: 16px;
   font-variant: small-caps;
   position: relative;
@@ -34,7 +34,7 @@ body
   align-items: center;
   justify-content: space-between;
   margin-right: 30px;
-  border: solid 1px green;
+  /*border: solid 1px green;*/
 }
 
 #ball_logo
@@ -51,13 +51,13 @@ body
   display: flex;
   align-items: center;
   width: 100%;
-  border: solid 1px blue;
+  /*border: solid 1px blue;*/
 }
 
 .nav_list, .player_list
 {
   display: flex;
-  border: solid 1px red;
+  /*border: solid 1px red;*/
 }
 
 .nav_titles, .player_nav
@@ -71,9 +71,15 @@ body
   display: inline-flex;
   margin-right: 5px;
   margin-left: 5px;
-  border: solid 1px green;
+  /*border: solid 1px green;*/
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.nav_titles a, .player_nav a
+{
+  text-decoration: none;
+  color: #000000;
 }
 
 .player_list

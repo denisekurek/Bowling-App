@@ -1,6 +1,6 @@
 .bag_list
 {
-  border: solid 1px black;
+  /*border: solid 1px black;*/
   margin: 8px auto;
   max-width: 1280px;
   height: 125px;
@@ -16,7 +16,7 @@
   display: flex;
 }
 
-.ball_space
+.bag_space
 {
   width: 100px;
   height: 95px;
@@ -29,23 +29,22 @@
 {
   max-width: 1280px;
   min-height: 600px;
-  border: solid 1px black;
+  /*border: solid 1px black;*/
   margin: 8px auto;
   display: flex;
   flex-direction: column;
-
 }
 
 .shelf_list
 {
   max-width: 1280px;
   height: 110px;
-  border: solid 1px green;
+  /*border: solid 1px green;*/
   margin: 4px auto;
   display: flex;
 }
 
-.ball_space_shelf
+.shelf_space
 {
   width: 100px;
   height: 95px;

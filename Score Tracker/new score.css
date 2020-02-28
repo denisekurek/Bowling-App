@@ -3,7 +3,7 @@
   max-width: 1280px;
   height: auto;
   margin: 0 auto;
-  border: solid 1px tan;
+  /*border: solid 1px tan;*/
   padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
@@ -84,7 +84,7 @@
   max-width: 1280px;
   height: auto;
   margin: 0 auto;
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -100,7 +100,7 @@ label, input, select
   max-width: 1280px;
   max-height: 75px;
   margin: 0 auto;
-  border: solid 1px blue;
+  /*border: solid 1px blue;*/
   position: relative;
   display: flex;
   justify-content: center;
@@ -132,7 +132,7 @@ label, input, select
   max-width: 1280px;
   display: flex;
   height: auto;
-  border: solid 1px green;
+  /*border: solid 1px green;*/
   margin: auto auto;
 }
 
@@ -141,7 +141,7 @@ label, input, select
   display: block;
   max-width: 350px;
   height: auto;
-  border: solid 1px white;
+  /*border: solid 1px white;*/
   margin: 0 auto;
   align-items: center;
 }
@@ -150,7 +150,7 @@ label, input, select
 {
   width: 325px;
   height: 60px;
-  border: solid 1px tan;
+  /*border: solid 1px tan;*/
   display: flex;
   margin: auto auto;
   vertical-align: middle;
@@ -160,7 +160,7 @@ label, input, select
 {
   width: 250px;
   height: 60px;
-  border: solid 1px tan;
+  /*border: solid 1px tan;*/
   display: flex;
   margin: auto auto;
   vertical-align: middle;
@@ -171,7 +171,7 @@ label, input, select
 {
   width: 175px;
   height: 60px;
-  border: solid 1px tan;
+  /*border: solid 1px tan;*/
   display: flex;
   margin: auto auto;
   vertical-align: middle;
@@ -181,7 +181,7 @@ label, input, select
 {
   width: 100px;
   height: 60px;
-  border: solid 1px tan;
+  /*border: solid 1px tan;*/
   display: flex;
   margin: auto auto;
   vertical-align: middle;
@@ -192,7 +192,7 @@ label, input, select
   display: inline-flex;
   width: 50px;
   height: 50px;
-  border: solid 1px black;
+  /*border: solid 1px black;*/
   margin: 0 auto;
 }
 
@@ -239,7 +239,7 @@ label, input, select
 
 .buttons
 {
-  border: solid 1px #ffffff;
+  /*border: solid 1px #ffffff;*/
   padding-left: 0px;
 }
 
