@@ -1,0 +1,73 @@
+.bag_list
+{
+  /*border: solid 1px black;*/
+  margin: 8px auto;
+  max-width: 1280px;
+  height: 125px;
+  display: flex;
+}
+
+.bag
+{
+  height: 100px;
+  width: 400px;
+  border: solid 1px red;
+  margin: auto;
+  display: flex;
+}
+
+.bag_space
+{
+  width: 100px;
+  height: 95px;
+  border: solid 1px blue;
+  margin: auto auto;
+  display: inline-flex;
+}
+
+.ball_buttons
+{
+  flex-direction: column;
+}
+
+.ball_buttons li
+{
+  background-color: #ababab;
+  border: none;
+  color: #000000;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.ball_shelf
+{
+  max-width: 1280px;
+  min-height: 600px;
+  /*border: solid 1px black;*/
+  margin: 8px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.shelf_list
+{
+  max-width: 1280px;
+  height: 110px;
+  /*border: solid 1px green;*/
+  margin: 4px auto;
+  display: flex;
+}
+
+.shelf_space
+{
+  width: 100px;
+  height: 95px;
+  border: solid 1px blue;
+  margin: 5px 8px;
+  display: inline-flex;
+}

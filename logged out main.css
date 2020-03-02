@@ -1,0 +1,75 @@
+body
+{
+  width: auto;
+  height:auto;
+  background-color: grey;
+  display: block;
+}
+
+.header
+{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: solid 1px blue;
+  background-color: darkgrey;
+}
+
+.header_container
+{
+  display: flex;
+  padding: 0 16px 0 16px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px red;
+  font-size: 16px;
+  font-variant: small-caps;
+  font-family: Arial, serif;
+  position: relative;
+}
+
+.logo
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+#ball_logo
+{
+  height: 32px;
+  width: 32px;
+  fill:#000000;
+  stroke: #000000;
+  stroke-width: 0px;
+}
+
+.header_menu
+{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.nav_list, .player_nav
+{
+  display: flex;
+}
+
+.nav_titles
+{
+  padding-inline-start: 0;
+}
+
+.nav_titles li, .player_nav li
+{
+  text-decoration: none;
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+.player_nav
+{
+  margin: 0 0 0 auto;
+}
