@@ -1,17 +1,71 @@
-.player_info
+.section_title
 {
   max-width: 1280px;
-  height: 800px;
+  height: 40px;
+  margin: auto;
+  margin-top: 8px;
+  display: flex;
+  align-content: space-around;
+  border: solid 1px blue;
+}
+
+.title
+{
+  border: solid 1px green;
+  text-decoration: underline;
+  display: flex;
+  margin: auto;
+  font-size: 30px;
+}
+
+.player_info, .highs_info
+{
+  max-width: 1280px;
+  height: 150px;
   border: solid 1px red;
   display: flex;
   margin: 8px auto;
-  font-size: 50px;
   justify-content: space-around;
   align-items: center;
+}
+
+.name_info
+{
+  width: 1280px;
+  height: 75px;
+  display: flex;
+  border: solid 1px red;
 }
 
 .name
 {
   border: solid 1px green;
+  margin: auto;
+  font-size: 50px;
+}
+
+.quick_summary
+{
+  width: 1280px;
+  height: 75px;
+  display: flex;
+  border: solid 1px blue;
+}
+
+.avg_summary, .high_game, .high_series
+{
+  border: solid 1px white;
+  margin: auto;
+  font-size: 16px;
+}
+
+.league_summary, .game_info, .series_info
+{
+  padding: 0;
+}
+
+.league_summary li, .high_game li, .high_series li
+{
+  text-decoration: none;
   display: block;
 }
