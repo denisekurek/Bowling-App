@@ -18,7 +18,7 @@
   font-size: 30px;
 }
 
-.player_info, .highs_info
+.player_info
 {
   max-width: 1280px;
   height: 150px;
@@ -44,28 +44,24 @@
   font-size: 50px;
 }
 
-.quick_summary
+.quick_summary, .highs_info
 {
   width: 1280px;
-  height: 75px;
+  max-height: auto;
   display: flex;
-  border: solid 1px blue;
+  border: solid 1px green;
+  margin: 8px auto;
+  align-content: space-around;
 }
 
 .avg_summary, .high_game, .high_series
 {
   border: solid 1px white;
-  margin: auto;
-  font-size: 16px;
+  display: flex;
+  margin: 8px auto;
 }
 
-.league_summary, .game_info, .series_info
+.game_info, .series_info
 {
-  padding: 0;
-}
-
-.league_summary li, .high_game li, .high_series li
-{
-  text-decoration: none;
-  display: block;
+  text-align: center;
 }
