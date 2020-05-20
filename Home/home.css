@@ -32,9 +32,9 @@
 .name_info
 {
   width: 1280px;
-  height: 75px;
+  height: 85px;
   display: flex;
-  border: solid 1px red;
+  border: solid 1px blue;
 }
 
 .name
@@ -65,3 +65,7 @@
 {
   text-align: center;
 }
+
+th, tr {
+  text-align: center;
+} 

@@ -5,27 +5,26 @@ body
   background-color: grey;
   display: block;
   font-family: Arial, serif;
+  font-size: 16px;
 }
 
 .header
 {
   padding-top: 8px;
   padding-bottom: 8px;
-  /*border: solid 1px blue;*/
+  /* border: solid 1px blue; */
   background-color: darkgrey;
+  max-width: 100%;
+  font-variant: small-caps;
+  font-size: 20px;
 }
 
 .header_container
 {
   display: flex;
-  padding: 0 16px 0 16px;
   max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
-  /*border: solid 1px red;*/
-  font-size: 16px;
-  font-variant: small-caps;
-  position: relative;
+  margin: 0 auto;
+  /* border: solid 1px red; */
 }
 
 .logo
@@ -34,7 +33,7 @@ body
   align-items: center;
   justify-content: space-between;
   margin-right: 30px;
-  /*border: solid 1px green;*/
+  /* border: solid 1px green; */
 }
 
 #ball_logo
@@ -51,38 +50,39 @@ body
   display: flex;
   align-items: center;
   width: 100%;
-  border: solid 1px blue;
+  /* border: solid 1px blue; */
+  justify-content: space-between;
 }
 
-.nav_list, .player_list
+.nav_list ul, .player_nav ul
 {
   display: flex;
-  border: solid 1px red;
-}
-
-.nav_titles, .player_nav
-{
+  /* border: solid 1px red; */
   padding-inline-start: 0;
+  justify-content: space-around;
 }
 
-.nav_titles li, .player_nav li
+li
 {
   text-decoration: none;
   display: inline-flex;
-  margin-right: 5px;
-  margin-left: 5px;
-  border: solid 1px green;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  /* border: solid 1px green; */
+  flex-shrink: 1;
 }
 
-.nav_titles a, .player_nav a
+.nav_list a, .player_nav a
 {
   text-decoration: none;
   color: #000000;
+  padding: 5px 5px;
 }
 
 .player_list
 {
   margin-left: auto;
+}
+
+a:hover {
+  background-color: #ffffff;
+  transition-duration: .5s;
 }
