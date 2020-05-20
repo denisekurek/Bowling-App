@@ -1,63 +1,53 @@
-.section_title
-{
-  max-width: 1280px;
-  height: 40px;
-  margin: auto;
-  margin-top: 8px;
-  display: flex;
-  align-content: space-around;
-  border: solid 1px blue;
-}
-
-.title
-{
-  border: solid 1px green;
-  text-decoration: underline;
-  display: flex;
-  margin: auto;
-  font-size: 30px;
-}
-
-.player_info
-{
-  max-width: 1280px;
-  height: 150px;
-  border: solid 1px red;
-  display: flex;
-  margin: 8px auto;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .name_info
 {
   width: 1280px;
   height: 85px;
   display: flex;
-  border: solid 1px blue;
+  /* border: solid 1px red; */
+  margin: 8px auto;
+  justify-content: center;
 }
 
 .name
 {
-  border: solid 1px green;
-  margin: auto;
+  /* border: solid 1px green; */
+  margin: auto 0;
   font-size: 50px;
 }
 
+.section_title
+{
+  max-width: 1280px;
+  height: 40px;
+  margin: 8px auto;
+  display: flex;
+  justify-content: space-around;
+  /* border: solid 1px blue; */
+}
+
+.title
+{
+  /* border: solid 1px green; */
+  text-decoration: underline;
+  font-size: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
 .quick_summary, .highs_info
 {
-  width: 1280px;
+  max-width: 1280px;
   max-height: auto;
   display: flex;
-  border: solid 1px green;
+  /* border: solid 3px red; */
   margin: 8px auto;
   align-content: space-around;
 }
 
 .avg_summary, .high_game, .high_series
 {
-  border: solid 1px white;
-  display: flex;
+  /* border: solid 1px white; */
   margin: 8px auto;
 }
 
@@ -66,6 +56,7 @@
   text-align: center;
 }
 
-th, tr {
+th, tr, td {
   text-align: center;
-} 
+  padding: 3px;
+}
