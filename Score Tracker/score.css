@@ -13,7 +13,7 @@
 
 .frame
 {
-  display: inline-flex;
+  display: flex;
   border: solid 2px #000000;
   margin: 0;
   border-collapse: collapse;
@@ -21,6 +21,7 @@
   background-color: #cc9900;
   width: 100px;
   height: 70px;
+  flex-shrink: 1;
 }
 
 .frame_count
@@ -34,6 +35,7 @@
 tr
 {
   display: flex;
+  flex-shrink: 1;
 }
 
 .ball_1
