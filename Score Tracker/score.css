@@ -231,16 +231,17 @@ label, input, select
   margin: auto;
   z-index: 2;
   position: relative;
+  display: block;
 }
 
-.pin_num
+/* .pin_num
 {
   position: relative;
   height: 50px;
   margin-left: 20px;
   margin-right: -25px;
   width: 50px;
-}
+} */
 
 .buttons li
 {
