@@ -1,13 +1,16 @@
-let pins = document.querySelectorAll('.pin');
+let pins = document.querySelectorAll('.pin_box');
+let count = 0;
+let bowling = false;
 
 function hidePin(e) {
   // console.log(e);
-  if (pin.style.opacity === "1")
+
+  if (pins.style.display == "inline-flex")
   {
-    pin.style.opacity = "0";
+    pins.style.display = "none";
   }
   else {
-    pin.style.opacity = "1";
+    pins.style.display = "inline-flex";
   }
 }
 
