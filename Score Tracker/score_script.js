@@ -8,15 +8,15 @@
 // let pin8 = document.querySelector('#pin8');
 // let pin9 = document.querySelector('#pin9');
 // let pin10 = document.querySelector('#pin10');
-let pin = document.querySelectorAll('.pin')
+let pins = document.querySelectorAll('.pin')
 let count = 10;
 let bowling = false;
 
-function hidePin(e) {
+function hidePin() {
   // console.log(e);
   // console.log(count);
   if (this.style.opacity == "0") {
-    this.style.opacity = "1";
+    // this.style.opacity = "1";
     this.setAttribute('style','opacity:1');
     count++;
     console.log(count);
@@ -39,6 +39,6 @@ function hidePin(e) {
 // pin9.addEventListener('click', hidePin)
 // pin10.addEventListener('click', hidePin)
 
-pin.forEach(function(element) {
+pins.forEach(function(element) {
   element.addEventListener('click', hidePin);
 });
