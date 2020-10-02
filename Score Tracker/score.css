@@ -232,6 +232,7 @@ label, input, select
   z-index: 2;
   position: relative;
   display: block;
+  opacity: 0;
 }
 
 /* .pin_num

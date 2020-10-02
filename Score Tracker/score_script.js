@@ -14,14 +14,17 @@ let bowling = false;
 
 function hidePin(e) {
   // console.log(e);
-  console.log(count);
+  // console.log(count);
   if (this.style.opacity == "0") {
+    this.style.opacity = "1";
     this.setAttribute('style','opacity:1');
     count++;
+    console.log(count);
   }
   else {
     this.style.opacity = "0";
     count--;
+    console.log(count)
   }
 }
 
