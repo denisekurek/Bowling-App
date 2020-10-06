@@ -9,21 +9,21 @@
 // let pin9 = document.querySelector('#pin9');
 // let pin10 = document.querySelector('#pin10');
 let pins = document.querySelectorAll('.pin')
-let count = 10;
+let count = 0;
 let bowling = false;
 
 function hidePin() {
   // console.log(e);
   // console.log(count);
   if (this.style.opacity == "0") {
-    // this.style.opacity = "1";
-    this.setAttribute('style','opacity:1');
-    count++;
+    this.style.opacity = "1";
+    // this.setAttribute('style','opacity:1');
+    count--;
     console.log(count);
   }
   else {
     this.style.opacity = "0";
-    count--;
+    count++;
     console.log(count)
   }
 }
