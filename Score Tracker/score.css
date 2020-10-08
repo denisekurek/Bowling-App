@@ -93,12 +93,12 @@ tr
   flex: .2 1;
 }
 
-.position, .score_input, .game_changers, .stats
+.position, .score_input, .game_buttons, .stats, .frame_buttons
 {
   max-width: 1280px;
   height: auto;
   margin: 0 auto;
-  /*border: solid 1px red;*/
+  border: solid 1px red;
   position: relative;
   display: flex;
   justify-content: space-around;
